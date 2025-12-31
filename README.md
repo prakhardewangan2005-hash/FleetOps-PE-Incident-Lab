@@ -13,7 +13,8 @@
 
 </div>
 
-> Notes: Docs-first PE portfolio artifact: SLOs, runbooks, postmortems, change safety.
+**Notes:** Docs-first PE portfolio artifact: SLOs, runbooks, postmortems, change safety.
+
 
 ---
 
