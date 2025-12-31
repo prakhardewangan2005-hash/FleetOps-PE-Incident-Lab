@@ -47,5 +47,8 @@ Alerts → On-call → Runbook → Mitigation → Postmortem → Prevention
 3) `docs/06_postmortems/`  
 4) `docs/08_change_management.md`
 
+Tip: Start with SLOs → Runbooks → Postmortems to see incident handling end-to-end.
+
+
 
 
