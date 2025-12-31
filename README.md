@@ -41,4 +41,11 @@ Observability (metrics + logs + traces)
 Alerts → On-call → Runbook → Mitigation → Postmortem → Prevention
 ```
 
+## Quick start (recruiter path)
+1) `docs/02_slos_and_alerts.md`  
+2) `docs/03_runbooks.md`  
+3) `docs/06_postmortems/`  
+4) `docs/08_change_management.md`
+
+
 
