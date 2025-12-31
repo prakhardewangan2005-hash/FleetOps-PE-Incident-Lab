@@ -13,6 +13,8 @@
 
 </div>
 
+> Notes: Docs-first PE portfolio artifact: SLOs, runbooks, postmortems, change safety.
+
 ---
 
 ## Why this maps strongly to Meta Production Engineering
