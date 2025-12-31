@@ -55,6 +55,20 @@ Tip: Start with SLOs → Runbooks → Postmortems to see incident handling end-t
 - Postmortems: `docs/06_postmortems/`
 - Change safety: `docs/08_change_management.md`
 
+## Docs index
+- `docs/00_overview.md` — scope + how to read
+- `docs/01_architecture.md` — system + failure domains
+- `docs/02_slos_and_alerts.md` — SLOs, error budgets, burn-rate alerts
+- `docs/03_runbooks.md` — triage → mitigate → validate
+- `docs/04_capacity_planning.md` — headroom, scaling triggers
+- `docs/05_incident_simulations.md` — game days + drills
+- `docs/06_postmortems/` — incident writeups + prevention
+- `docs/07_oncall_playbook.md` — oncall habits + escalation
+- `docs/08_change_management.md` — canary/rollback + guardrails
+- `docs/09_risk_register.md` — risks + mitigations
+- `docs/10_operational_metrics.md` — golden signals + dashboards
+
+
 
 
 
