@@ -49,6 +49,13 @@ Alerts → On-call → Runbook → Mitigation → Postmortem → Prevention
 
 Tip: Start with SLOs → Runbooks → Postmortems to see incident handling end-to-end.
 
+## Key artifacts
+- SLOs & alerts: `docs/02_slos_and_alerts.md`
+- Runbooks: `docs/03_runbooks.md`
+- Postmortems: `docs/06_postmortems/`
+- Change safety: `docs/08_change_management.md`
+
+
 
 
 
