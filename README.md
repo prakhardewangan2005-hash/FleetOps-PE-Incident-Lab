@@ -16,7 +16,7 @@ This repository is a **working production-style lab**, not just a case study.
 - **Infra:** Docker + Docker Compose
 
 ### Run locally (one command)
-```bash
+``bash
 docker compose up
 
 <div align="center">
@@ -51,7 +51,7 @@ This repo demonstrates:
 ---
 
 ## System modeled
-```text
+
 Clients
   ↓
 API Gateway (routing, rate limiting, canary controls)
@@ -63,7 +63,7 @@ Feed Service —— Cache —— DB
 Observability (metrics + logs + traces)
   ↓
 Alerts → On-call → Runbook → Mitigation → Postmortem → Prevention
-```
+
 
 ## Quick start (recruiter path)
 1) `docs/02_slos_and_alerts.md`  
