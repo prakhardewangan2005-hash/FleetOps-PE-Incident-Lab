@@ -14,12 +14,7 @@ This repository is a **working production-style lab**, not just a case study.
 - **Monitoring:** Prometheus
 - **Alerts:** Burn-rate style latency alert
 - **Infra:** Docker + Docker Compose
-
-### Run locally (one command)
-``bash
-docker compose up
-
-<div align="center">
+  
 
 # FleetOps — PE Incident Lab  
 ### Production Engineering case study: SLOs • burn-rate alerts • runbooks • capacity planning • postmortems • change safety
