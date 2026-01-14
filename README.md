@@ -1,3 +1,24 @@
+## 🚀 FleetOps – Production Incident Response Lab
+
+This repository is a **working production-style lab**, not just a case study.
+
+### What this project demonstrates
+- A real running backend service (Python + Flask)
+- Live metrics exposure using Prometheus
+- Latency SLO monitoring and alerting
+- Incident response using documented runbooks
+- Post-incident analysis with written postmortems
+
+### Architecture
+- **Service:** Python Flask API
+- **Monitoring:** Prometheus
+- **Alerts:** Burn-rate style latency alert
+- **Infra:** Docker + Docker Compose
+
+### Run locally (one command)
+```bash
+docker compose up
+
 <div align="center">
 
 # FleetOps — PE Incident Lab  
