@@ -1,28 +1,27 @@
-# 📊 Monitoring – FleetOps PE Incident Lab
+# 📊 Monitoring — FleetOps PE Incident Lab
 
-This folder contains all monitoring and alerting configuration used in the FleetOps
-production-style incident response lab.
+This directory contains the **complete monitoring and alerting setup** used in the FleetOps
+production-style incident response lab.  
+It demonstrates **real SLO monitoring, alert firing, and incident validation** using Prometheus.
 
-## Contents
+---
 
-### 🔹 Prometheus Configuration
-- **File:** `prometheus.yml`
-- Defines scrape targets and global scrape interval
-- Scrapes metrics from the FleetOps service (`/metrics` endpoint)
+## 🔗 Live Prometheus (Codespaces Demo)
 
-### 🔹 Alert Rules
-- **File:** `alerts.yml`
-- Defines SLO-based alerting
-- Example alert:
-  - **HighLatency**: Fires when p95 latency exceeds threshold
+**Prometheus UI (Live):**  
+https://vigilant-journey-97rwrj757665f97qp-9090.app.github.dev/query
 
-## How it is used
-1. FleetOps service exposes Prometheus metrics
-2. Prometheus scrapes metrics from the service
-3. Alert rules evaluate latency SLOs
-4. Alerts trigger incident response workflows
+> ⚠️ Note  
+> This link works **only while the Codespace is running**.  
+> If the Codespace is stopped, the URL may return **HTTP 502**.
 
-## Related Docs
-- 📘 Runbooks: [`../runbooks/`](../runbooks/)
-- 🧾 Incidents / Postmortems: [`../incidents/`](../incidents/)
-- 📄 Root overview: [`../README.md`](../README.md)
+---
+
+## 📁 Files in this Directory
+
+### 1️⃣ `prometheus.yml` — Scrape Configuration
+Defines how Prometheus scrapes metrics from the FleetOps service.
+
+**Key points:**
+- Scrape interval optimized for demo/testing
+- Scrapes metrics from:
