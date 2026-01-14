@@ -1,4 +1,4 @@
-## 🚀 FleetOps – Production Incident Response Lab
+# 🚀 FleetOps – Production Incident Response Lab
 
 This repository is a **working production-style lab**, not just a case study.
 
@@ -16,7 +16,7 @@ This repository is a **working production-style lab**, not just a case study.
 - **Infra:** Docker + Docker Compose
   
 
-# FleetOps — PE Incident Lab  
+## FleetOps — PE Incident Lab  
 ### Production Engineering case study: SLOs • burn-rate alerts • runbooks • capacity planning • postmortems • change safety
 
 <p>
