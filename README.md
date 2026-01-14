@@ -14,6 +14,22 @@ This repository is a **working production-style lab**, not just a case study.
 - **Monitoring:** Prometheus
 - **Alerts:** Burn-rate style latency alert
 - **Infra:** Docker + Docker Compose
+
+
+## 📚 Documentation Structure
+
+- **Monitoring:** [`monitoring/README.md`](monitoring/README.md)  
+  Prometheus configuration, alert rules, and SLO-related setup.
+
+- **Runbooks:** [`runbooks/`](runbooks/)  
+  Incident response procedures (latency, mitigation, verification).
+
+- **Incidents:** [`incidents/`](incidents/)  
+  Real postmortems documenting detection → mitigation → recovery.
+
+- **Operations Docs:** [`docs/`](docs/)  
+  On-call playbooks, change management, risk register, and operational metrics.
+
   
 
 ## FleetOps — PE Incident Lab  
